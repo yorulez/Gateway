@@ -115,6 +115,7 @@ if zigbee.value("lumi.sensor_switch", "click") == "single" then
   else
     zigbee.set("lamp_1", "brightness", 0)
   end
+end
  
 
 
